@@ -1,8 +1,13 @@
-<!-- 
-Tugas 5
-Buatlah program berdasarkan materi yang sudah diberikan, minimal menggunakan 2 kombinasi materi 
--->
+<?php 
+ $counter = 1;
 
-<?php
-   //
+ do{
+     if ($counter <=5) {
+        echo " nilai anda $counter  jelek<br>";
+     } else {
+          echo"nilai anda $counter  bagus <br>";
+               }
+     $counter++;
+ } while ($counter <= 10) 
+
 ?>
