@@ -1,14 +1,14 @@
-<!--  
-  Tugas 1 (wajib hari ini selesai !!!)
-  Buatlah program yang dapat mencetak angka 1 - 20
-  Tentukan apakah setiap angka tersebut ganjil atau genap
-  contoh :
-  1 adalah Ganjil
-  2 adalah Genap
-  3 adalah Ganjil
-  dst 
--->
+<?php 
 
-<?php
-  //
+$counter = 1;
+
+ while ($counter <= 20) {
+     if ($counter % 2 == 0) {
+        echo $counter . " ini angka genap <br>";
+     } else {
+          echo $counter . " ini angka ganjil <br>";
+               }
+     $counter++;
+ } 
+
 ?>
