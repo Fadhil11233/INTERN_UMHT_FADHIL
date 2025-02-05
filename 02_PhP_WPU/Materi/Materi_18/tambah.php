@@ -1,4 +1,11 @@
 <?php 
+session_start();
+
+if( !isset($_SESSION["login"])) {
+    header("location: login.php");
+    exit;
+}
+
 require 'functions.php';
 // cek apakah tombol submit sudah di tekan atau belum
 if( isset($_POST["submit"]) ) {
@@ -67,7 +74,7 @@ if( isset($_POST["submit"]) ) {
         </li>
         <br>
         <li>
-            <button type="submit" name="submit">Tambah data</button>
+            <button typr="submit" name="submit">Tambah data</button>
         </li>
     </ul>
     </form>
