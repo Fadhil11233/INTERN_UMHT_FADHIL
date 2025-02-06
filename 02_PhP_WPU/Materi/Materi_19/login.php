@@ -83,11 +83,11 @@ if( isset($_POST["login"]) ) {
     <ul>
         <li>
             <label for="username">username :</label>
-            <input type="text" name="username" id="username">
+            <input type="text" name="username" id="username" autocomplete="off">
         </li>
         <li>
             <label for="password">password :</label>
-            <input type="text" name="password" id="password">
+            <input type="password" name="password" id="password" autocomplete="off">
         </li>
         <li>
             <input type="checkbox" name="remember" id="remember">
