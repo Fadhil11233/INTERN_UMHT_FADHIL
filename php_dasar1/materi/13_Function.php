@@ -1,5 +1,5 @@
 <?php 
-
+// Hello
 function sapa($nama)
 {
     echo "Halo, nama saya : $nama <br>";
