@@ -7,7 +7,7 @@ function sapa($nama)
 
 function panggil()
 {
-    echo "Woi!!";
+    echo "Woi!!!!";
 }
 
 // sapa('Edward');
