@@ -2,7 +2,7 @@
 
 function sapa($nama)
 {
-    echo "Halo, nama saya $nama <br>";
+    echo "Halo, nama saya : $nama <br>";
 }
 
 function panggil()
